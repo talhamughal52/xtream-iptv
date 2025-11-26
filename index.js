@@ -20,6 +20,16 @@ const xtream = new Xtream({
 //   limit: 50,
 // });
 
+// const result = await xtream.getMovie({
+//   movieId: 734573,
+// });
+
+// const result = await xtream.generateStreamUrl({
+//   type: "movie",
+//   streamId: 734573,
+//   extension: "mp4",
+// });
+
 const result = await xtream.getChannelCategories();
 console.log(result);
 /* outputs
