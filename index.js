@@ -6,6 +6,7 @@ const xtream = new Xtream({
   password: process.env.password,
 });
 
+
 // const result = await xtream.getProfile();
 // const result = await xtream.getServerInfo();
 
